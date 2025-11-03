@@ -1,0 +1,12 @@
+﻿services:
+  railwayapp.api:
+    image: railwayapp.api
+    build:
+      context: .
+      dockerfile: src/API/RailwayApp.Api/Dockerfile
+      
+  railwayappDb:
+    image: mariadb:latest
+    
+  railwayappRabbitmq:
+    image: rabbitmq:management
