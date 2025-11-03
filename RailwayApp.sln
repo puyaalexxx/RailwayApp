@@ -1,8 +1,64 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36429.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{636EA6B8-9939-45F4-B1BD-B680263BB06D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{37058BDD-5BB7-464B-A85E-35C03F541564}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{67A7C324-F64B-4790-97F7-126D0FEB826B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{F983A566-0DE4-44FE-9DF1-62CE69A4680B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Trains", "Trains", "{57B4B3E6-CE4C-4837-AF62-59D8F51A753A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tickets", "Tickets", "{DA88F1F6-E5B1-4967-8056-1C19D6FEB481}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailwayApp.Api", "src\API\RailwayApp.Api\RailwayApp.Api.csproj", "{81F2FF1E-1C13-4E5A-8AE9-EE30DCBF4959}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailwayApp.Modules.Tickets.Domain", "src\Modules\Tickets\RailwayApp.Modules.Tickets.Domain\RailwayApp.Modules.Tickets.Domain.csproj", "{46A2C9B1-997C-4A78-9292-1FB0C6A66C05}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailwayApp.Modules.Tickets.Application", "src\Modules\Tickets\RailwayApp.Modules.Tickets.Application\RailwayApp.Modules.Tickets.Application.csproj", "{511A8768-EFC5-4F99-AA0C-CA9453C6C2A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailwayApp.Modules.Tickets.Infrastructure", "src\Modules\Tickets\RailwayApp.Modules.Tickets.Infrastructure\RailwayApp.Modules.Tickets.Infrastructure.csproj", "{D2EC8EC6-2C68-45B6-BFE2-D309EF9D5828}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailwayApp.Modules.Trains.Domain", "src\Modules\Trains\RailwayApp.Modules.Trains.Domain\RailwayApp.Modules.Trains.Domain.csproj", "{305524A4-8A36-4914-BA5A-2330EC839FD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailwayApp.Modules.Trains.Application", "src\Modules\Trains\RailwayApp.Modules.Trains.Application\RailwayApp.Modules.Trains.Application.csproj", "{7CBA820C-50BE-4174-907E-58E7B75AD9DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailwayApp.Modules.Trains.Infrastructure", "src\Modules\Trains\RailwayApp.Modules.Trains.Infrastructure\RailwayApp.Modules.Trains.Infrastructure.csproj", "{DC27B351-33C0-4D8F-8114-722D522C258E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailwayApp.Shared.Messaging", "src\Shared\RailwayApp.Shared.Messaging\RailwayApp.Shared.Messaging.csproj", "{9F281426-EDC4-41F4-B250-B77340D2EC30}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailwayApp.Modules.Tickets.Presentation", "src\Modules\Tickets\RailwayApp.Modules.Tickets.Presentation\RailwayApp.Modules.Tickets.Presentation.csproj", "{46717255-E830-4DA4-AC1D-7E648B6E2137}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailwayApp.Modules.Trains.Presentation", "src\Modules\Trains\RailwayApp.Modules.Trains.Presentation\RailwayApp.Modules.Trains.Presentation.csproj", "{435A84ED-6256-4CFB-A438-6277CDDB1AC4}"
+EndProject
 Global
-	GlobalSection(SolutionConfigurationPlatforms) = preSolution
-		Debug|Any CPU = Debug|Any CPU
-		Release|Any CPU = Release|Any CPU
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6EAFE4CB-5823-4F49-8884-571F03562CBE}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{37058BDD-5BB7-464B-A85E-35C03F541564} = {636EA6B8-9939-45F4-B1BD-B680263BB06D}
+		{67A7C324-F64B-4790-97F7-126D0FEB826B} = {636EA6B8-9939-45F4-B1BD-B680263BB06D}
+		{F983A566-0DE4-44FE-9DF1-62CE69A4680B} = {636EA6B8-9939-45F4-B1BD-B680263BB06D}
+		{57B4B3E6-CE4C-4837-AF62-59D8F51A753A} = {67A7C324-F64B-4790-97F7-126D0FEB826B}
+		{DA88F1F6-E5B1-4967-8056-1C19D6FEB481} = {67A7C324-F64B-4790-97F7-126D0FEB826B}
+		{81F2FF1E-1C13-4E5A-8AE9-EE30DCBF4959} = {37058BDD-5BB7-464B-A85E-35C03F541564}
+		{46A2C9B1-997C-4A78-9292-1FB0C6A66C05} = {DA88F1F6-E5B1-4967-8056-1C19D6FEB481}
+		{511A8768-EFC5-4F99-AA0C-CA9453C6C2A5} = {DA88F1F6-E5B1-4967-8056-1C19D6FEB481}
+		{D2EC8EC6-2C68-45B6-BFE2-D309EF9D5828} = {DA88F1F6-E5B1-4967-8056-1C19D6FEB481}
+		{305524A4-8A36-4914-BA5A-2330EC839FD8} = {57B4B3E6-CE4C-4837-AF62-59D8F51A753A}
+		{7CBA820C-50BE-4174-907E-58E7B75AD9DD} = {57B4B3E6-CE4C-4837-AF62-59D8F51A753A}
+		{DC27B351-33C0-4D8F-8114-722D522C258E} = {57B4B3E6-CE4C-4837-AF62-59D8F51A753A}
+		{9F281426-EDC4-41F4-B250-B77340D2EC30} = {F983A566-0DE4-44FE-9DF1-62CE69A4680B}
+		{46717255-E830-4DA4-AC1D-7E648B6E2137} = {DA88F1F6-E5B1-4967-8056-1C19D6FEB481}
+		{435A84ED-6256-4CFB-A438-6277CDDB1AC4} = {57B4B3E6-CE4C-4837-AF62-59D8F51A753A}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 	EndGlobalSection
 EndGlobal
