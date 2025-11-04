@@ -10,8 +10,4 @@
       <ProjectReference Include="..\..\..\Shared\RailwayApp.Shared.Domain\RailwayApp.Shared.Domain.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Route\" />
-    </ItemGroup>
-
 </Project>

@@ -3,7 +3,7 @@ using RailwayApp.Shared.Domain;
 
 namespace RailwayApp.Modules.Trains.Domain.Trains;
 
-public class Train : Entity
+public sealed class Train : Entity
 {
     public string Name { get; private set; }
 
@@ -14,18 +14,7 @@ public class Train : Entity
     public int Seats { get; private set; }
 
     public Status Status { get; set; }
-    
-    // Required to satisfy non-nullable property
-    private Train()
-    {
-        Name = null!; // the value will be set later before use
-        Code = null!;
-        Type = default!;
-        Seats = 0;
-        Status = Status.Stopped;
-    }
 
-    // Private constructor with parameters
     private Train(Guid id, string name, string code, Type type, int seats, Status status) : base(id)
     {
         Name = name;
@@ -59,14 +48,6 @@ public class Train : Entity
             return errors;
         }
 
-        return new Train
-        {
-            Id = Guid.NewGuid(),
-            Name = name,
-            Code = code,
-            Type = type,
-            Seats = seats,
-            Status = status
-        };
+        return new Train( Guid.NewGuid(), name, code, type, seats, status );
     }
 }

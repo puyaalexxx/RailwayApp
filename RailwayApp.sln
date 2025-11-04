@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.14.36429.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{636EA6B8-9939-45F4-B1BD-B680263BB06D}"
+	ProjectSection(SolutionItems) = preProject
+		src\NewFile1.txt = src\NewFile1.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "API", "API", "{37058BDD-5BB7-464B-A85E-35C03F541564}"
 EndProject
