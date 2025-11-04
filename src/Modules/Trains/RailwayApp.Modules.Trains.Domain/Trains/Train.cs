@@ -2,6 +2,8 @@
 using RailwayApp.Shared.Domain;
 using TrainStop = RailwayApp.Modules.Trains.Domain.Stop.Stop;
 
+using Type = RailwayApp.Modules.Trains.Domain.Trains.Type;
+
 namespace RailwayApp.Modules.Trains.Domain.Trains;
 
 public sealed class Train : Entity
@@ -16,7 +18,7 @@ public sealed class Train : Entity
 
     public Status Status { get; set; }
     
-    private List<TrainStop> _stops = new(); 
+    private readonly List<TrainStop> _stops = new(); 
     public IReadOnlyList<TrainStop> Stops => _stops.AsReadOnly();
 
     private Train(Guid id, string name, string number, Type type, int seats, Status status) : base(id)

@@ -1,7 +1,7 @@
 ﻿using ErrorOr;
 using RailwayApp.Shared.Domain;
 
-namespace RailwayApp.Modules.Trains.Domain.Station;
+namespace RailwayApp.Modules.Stations.Domain.Station;
 
 public sealed class Station : Entity
 {
