@@ -40,6 +40,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		compose.yaml = compose.yaml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RailwayApp.Shared.Domain", "src\Shared\RailwayApp.Shared.Domain\RailwayApp.Shared.Domain.csproj", "{8E894F2F-48D5-40D8-8ECE-E18C9DB6E9DD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -86,6 +88,10 @@ Global
 		{435A84ED-6256-4CFB-A438-6277CDDB1AC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{435A84ED-6256-4CFB-A438-6277CDDB1AC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{435A84ED-6256-4CFB-A438-6277CDDB1AC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E894F2F-48D5-40D8-8ECE-E18C9DB6E9DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E894F2F-48D5-40D8-8ECE-E18C9DB6E9DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E894F2F-48D5-40D8-8ECE-E18C9DB6E9DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E894F2F-48D5-40D8-8ECE-E18C9DB6E9DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -106,6 +112,7 @@ Global
 		{9F281426-EDC4-41F4-B250-B77340D2EC30} = {F983A566-0DE4-44FE-9DF1-62CE69A4680B}
 		{46717255-E830-4DA4-AC1D-7E648B6E2137} = {DA88F1F6-E5B1-4967-8056-1C19D6FEB481}
 		{435A84ED-6256-4CFB-A438-6277CDDB1AC4} = {57B4B3E6-CE4C-4837-AF62-59D8F51A753A}
+		{8E894F2F-48D5-40D8-8ECE-E18C9DB6E9DD} = {F983A566-0DE4-44FE-9DF1-62CE69A4680B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {6EAFE4CB-5823-4F49-8884-571F03562CBE}
