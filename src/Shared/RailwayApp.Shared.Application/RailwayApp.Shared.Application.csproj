@@ -7,8 +7,7 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\..\Shared\RailwayApp.Shared.Infrastructure\RailwayApp.Shared.Infrastructure.csproj" />
-      <ProjectReference Include="..\RailwayApp.Modules.Tickets.Application\RailwayApp.Modules.Tickets.Application.csproj" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="9.0.10" />
     </ItemGroup>
 
 </Project>

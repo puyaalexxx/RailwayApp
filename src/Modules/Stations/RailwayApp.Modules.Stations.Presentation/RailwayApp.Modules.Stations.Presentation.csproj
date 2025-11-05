@@ -6,4 +6,13 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Folder Include="GraphQL\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\Shared\RailwayApp.Shared.Presentation\RailwayApp.Shared.Presentation.csproj" />
+      <ProjectReference Include="..\RailwayApp.Modules.Stations.Application\RailwayApp.Modules.Stations.Application.csproj" />
+    </ItemGroup>
+
 </Project>

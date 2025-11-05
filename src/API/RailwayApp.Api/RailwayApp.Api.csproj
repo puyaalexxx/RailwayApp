@@ -20,4 +20,10 @@
       </Content>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\Modules\Stations\RailwayApp.Modules.Stations.Infrastructure\RailwayApp.Modules.Stations.Infrastructure.csproj" />
+      <ProjectReference Include="..\..\Modules\Tickets\RailwayApp.Modules.Tickets.Infrastructure\RailwayApp.Modules.Tickets.Infrastructure.csproj" />
+      <ProjectReference Include="..\..\Modules\Trains\RailwayApp.Modules.Trains.Infrastructure\RailwayApp.Modules.Trains.Infrastructure.csproj" />
+    </ItemGroup>
+
 </Project>

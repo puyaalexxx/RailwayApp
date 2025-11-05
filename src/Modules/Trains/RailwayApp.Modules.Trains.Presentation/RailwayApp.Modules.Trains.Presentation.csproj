@@ -10,4 +10,9 @@
       <Folder Include="GraphQL\" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\..\..\Shared\RailwayApp.Shared.Presentation\RailwayApp.Shared.Presentation.csproj" />
+      <ProjectReference Include="..\RailwayApp.Modules.Trains.Application\RailwayApp.Modules.Trains.Application.csproj" />
+    </ItemGroup>
+
 </Project>
