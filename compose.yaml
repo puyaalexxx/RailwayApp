@@ -10,6 +10,7 @@
 
   railwayappDb:
     image: mariadb:10.7
+    restart: always
     environment:
       MARIADB_DATABASE: RailwayDb
       MARIADB_USER: root
